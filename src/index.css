@@ -1,13 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
   margin: 0;
-  overflow: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Comic Sans MS", cursive;
+  background: linear-gradient(to bottom, #6ec6ff, #b2f7ef);
 }
 
-.btn-level {
-  @apply bg-purple-500 px-4 py-2 rounded-lg text-white hover:bg-purple-600 transition;
+button {
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
