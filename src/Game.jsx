@@ -102,7 +102,7 @@ export default function Game() {
         renderer="logarithmicDepthBuffer: true;"
       >
         <a-marker
-          preset="kanji"
+          preset="hiro"
           onMarkerFound={() => setMarkerVisible(true)}
           onMarkerLost={() => setMarkerVisible(false)}
         >
